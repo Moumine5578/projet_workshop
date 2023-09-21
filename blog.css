@@ -1,0 +1,277 @@
+
+
+* {
+    margin: 0;
+}
+
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    margin: 0;
+}
+
+.blogs h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.blogs h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.partieblog {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.bdfemmes img {
+    width: 100px;
+    height: 90px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.bdfemmes p {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.bdfemmes {
+    border-radius: 0px;
+    border: solid;
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+
+}
+
+.bdfemmes:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.bdjeunes img {
+    width: 100px;
+    height: 90px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.bdjeunes p {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.bdjeunes {
+    border-radius: 0px;
+    border: solid;
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+    margin-left: 2%;
+}
+
+.bdjeunes:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.bdpersonne img {
+    width: 100px;
+    height: 90px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.bdpersonne p {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.bdpersonne {
+    border-radius: 0px;
+    border: solid;
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+
+}
+
+.bdpersonne:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.bdmetiers img {
+    width: 100px;
+    height: 90px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.bdmetiers p {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.bdmetiers {
+    border-radius: 0px;
+    border: solid;
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+    margin-left: 40%;
+    margin-top: 5%;
+
+}
+
+.bdmetiers:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.modals3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.modals1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40%;
+    margin-top: 40px;
+}
+
+.textfemme {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+.horizontal-line {
+    border: 8px solid #25716c;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.blogs h3 {
+    margin-left: 15%;
+}
+
+.femmeimgblog {
+    margin-left: 14%;
+    height: 500px;
+    width: 1000px;
+    margin-bottom: 5%;
+}
+
+
+/*---------------image-vivante-----------------*/
+.titre-passion {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.tout-image {
+    display: flex;
+    min-width: 600px;
+    max-width: 900px;
+    height: 400px;
+    margin: 4rem auto;
+}
+
+.image {
+    min-width: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+    overflow: hidden;
+    position: relative;
+}
+
+.image.active {
+    flex-grow: 500;
+    max-width: 600px;
+    margin: 0;
+    border-radius: 7px;
+    background-size: auto 100%;
+}
+
+image:not(.active) {
+    flex-grow: 1;
+    border-radius: 5px;
+}
+
+.text-container {
+    height: 400px;
+    padding: 2rem;
+    visibility: hidden;
+    transform: translateY(300px);
+    opacity: 0;
+    transition: all .4s ease;
+    background: linear-gradient(354deg, black 0%, transparent 72%);
+    color: white;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    bottom: 5rem;
+}
+
+.active .text-container {
+    visibility: visible;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.text p {
+    font-size: 16px;
+    color: #edf3f7;
+    line-height: 1.6;
+}
+
+.text a{
+    font-family: auto;
+    color: red;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    border: black;
+    background-color: yellow;
+}
+
+
+/*---------------image-vivante-----------------*/
+
+
+.footer {
+    background-color: #6bb0ac;
+    padding: 20px;
+    text-align: center;
+    position: center;
+    width: 100%;
+    bottom: 0;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #edf3f7;
+}
